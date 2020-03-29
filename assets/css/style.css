@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #3969b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: inline-flex;
+}
+
+#about p {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.work {
+  display: inline-flex;
+}
+
+.work-grid-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 25px);
+  grid-gap: 5px;
+  float: right;
+}
+
+.work-grid-item {
+  width: 90px;
+  height: 50px;
+  background-color: orange;
+  border: solid;
+  color: black;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+.rbu {
+  word-wrap: break-word;
+  width: 200px;
+}
