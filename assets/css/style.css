@@ -34,11 +34,15 @@ header nav {
 
 .about-me {
   display: inline-flex;
-  height: 100px;
+  height: 150px;
 }
 
 .about-me h2 {
   padding: 20px;
+}
+
+.about-me-text {
+  display: block;
 }
 
 #about p {
@@ -71,17 +75,53 @@ header nav {
   height: 50px;
   background-color: orange;
   border: solid;
+  border-radius: 15px;
   color: black;
   margin: 0 auto;
   padding: 5px;
   font-size: 12px;
   text-align: center;
-  
+}
+
+.work-grid-item:hover {
+  width: 100px;
+  height: 60px;
+}
+
+.work-grid-item p {
+  display: none;
+}
+
+.work-grid-item:hover p {
+  display: block;
+  font-weight: 600;
 }
 
 .rbu {
-  word-wrap: break-word;
-  width: 200px;
+  width: 180px;
+}
+
+.rbu:hover {
+  width:200px;
+  height: 60px;
+}
+
+.work-grid-item button {
+  background-color: #fff;
+  height: 35px;
+  width: 70px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+.rbu button {
+  width: 140px;
+}
+
+.work-grid-item button:hover {
+  background-color: black;
+  color: white;
 }
 
 .contact-me {
