@@ -9,22 +9,51 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+header {
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  display: inline;
+}
+
 header img {
   width: 15%;
   margin: 10px 0;
 }
 
+header nav {
+  margin: 7px 30px;
+  float: right;
+}
+
 .about-me {
   display: inline-flex;
+  height: 100px;
+}
+
+.about-me h2 {
+  padding: 20px;
 }
 
 #about p {
   max-width: 80%;
   margin: 0 auto;
+  padding:5px;
 }
 
 .work {
   display: inline-flex;
+  height: 100px;
+}
+
+.work h2 {
+  padding: 20px;
 }
 
 .work-grid-container {
@@ -53,4 +82,20 @@ header img {
 .rbu {
   word-wrap: break-word;
   width: 200px;
+}
+
+.contact-me {
+  display: inline-flex;
+  height: 50px;
+}
+
+.contact-me h2 {
+  padding: 20px;
+}
+
+.contact-info {
+  max-width: 80%;
+  margin: 20px 200px;
+  padding: 0;
+  float: left;
 }
