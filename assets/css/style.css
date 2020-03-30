@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 180px;
   background-color: lightgoldenrodyellow;
 }
 
@@ -20,11 +20,12 @@ header a {
 
 header h1 {
   display: inline;
+  padding: 0 0 0 20px;
 }
 
 header img {
-  width: 15%;
-  margin: 10px 0;
+  display: inline;
+  margin: 5px
 }
 
 header nav {
