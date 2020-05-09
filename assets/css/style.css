@@ -9,6 +9,42 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+button {
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+#about {
+  padding: 20px 0 0 0;
+}
+
+.project {
+  font-size: 20px;
+}
+
+.myName {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.work {
+  margin: 20px 0 0 0;
+}
+
+#projects {
+  padding: 20px 0 0 0;
+}
+
+.contact-label {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+}
+
+#contact {
+  padding: 20px 0 0 0;
+}
+/*
 header {
   height: 180px;
   background-color: lightgoldenrodyellow;
@@ -126,53 +162,10 @@ header nav {
 }
 
 .project {
-  display: inline-flex;
-  height: 100px;
+  word-wrap: none;
 }
 
-.project h2 {
-  padding: 20px;
-}
-
-.project-grid-container {
-  max-width: 80%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(2, 25px);
-  grid-gap: 5px;
-  float: right;
-}
-
-.project-grid-item {
-  width: 90px;
-  height: 50px;
-  background-color: orange;
-  border: solid;
-  border-radius: 15px;
-  color: black;
-  margin: 10px 0 0 10px;
-  padding: 10px;
-  font-size: 12px;
-  text-align: center;
-}
-
-.contact-me {
-  display: inline-flex;
-  height: 50px;
-}
-
-.contact-me h2 {
-  padding: 20px;
-}
-
-.contact-info {
-  max-width: 80%;
-  margin: 20px 200px;
-  float: left;
-}
-
-/* media queries */
+/* media queries 
 @media screen and (min-width: 1024px) {
   body {
     background-color: white;
@@ -189,4 +182,4 @@ header nav {
     body {
       background-color: lightyellow;
   }
-}
+}*/

@@ -1,84 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Portfolio</title>
+  <link 
+  rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+  crossorigin="anonymous">
 </head>
+
 <body>
-  <header>
-    <img src="./assets/images/IMG_1672.jpg" alt="Rocket Scientist">
-    <h1>Russell Morgan</h1>
-    <nav>
-      <a href="#about-me">About Me</a> |
-      <a href="#work">Work</a> |
-      <a href="#project">Projects</a> |
-      <a href="#contact-me">Contact Me</a>
-    </nav>
-  </header>
-  <section>
-    <!-- add picture and title-->
-  </section>
+  <div class="container">
 
-  <section id="about" class="about-me">
-    <h2>About Me</h2>
-    <div class="about-me-text">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita porro atque voluptatem inventore tenetur officiis sapiente laudantium blanditiis totam amet soluta, animi incidunt. Laboriosam voluptatibus, porro quis officia perspiciatis quaerat.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem libero facilis rerum adipisci veniam, autem, temporibus ab reiciendis reprehenderit ut dicta saepe accusantium beatae vel ipsum vero labore veritatis</p>
+    <div class="row-12">
+      <img class="col-sm-1" src="./assets/images/IMG_1672.jpg" alt="Rocket Scientist">
+      <label class="col-sm-4 myName">Russell Morgan</label>
+      <a class="col-sm-1" href="#about-me">About Me</a> |
+      <a class="col-sm-1" href="#work">Work</a> |
+      <a class="col-sm-1" href="#project">Projects</a> |
+      <a class="col-sm-1" href="#contact-me">Contact Me</a>
     </div>
-  </section>
 
-  <section  id="work" class="work">
-    <h2>Work</h2>
-    <div class="work-grid-container">
-      <div class="work-grid-item">
-        <button>Rockwell</button>
-        <p>Rockwell Internation - Seal Beach, CA</p> 
-      </div>
-      <div class="work-grid-item">
-        <button>EDS</button>
-        <p>Electronic Data Systems - Plano, TX</p> 
-      </div>
-      <div class="work-grid-item rbu">
-        <button>Rockwell/Boeing/USA</button>
-        <p>Rockell Interntional - Downey, CA</p>
-        <p>Boeing North America - Houston, TX</p>
-        <p>United Space Alliance - Houston, TX</p>
-      </div>
-      <div class="work-grid-item">
-        <button>Trinity Millenium</button>
-        <p>Trinity Millenium - San Antonio, TX</p>
-      </div>
-      <div class="work-grid-item">
-        <button>Accenture</button>
-        <p>Accenture - Houston, TX</p>
-      </div>
-      <div class="work-grid-item">
-        <button>USAA</button>
-        <p>United Services Automobile Association - San Antonio, TX</p>
-      </div>
+    <div id="about" class="row-12 align-items-center">
+      <label class="col-sm-2 contact-label about-me">About Me</label>
+      <label class="col-sm-7">Software Engineer experienced in end-to-end software application architecture, development, testing, and database administration in the commercial and government industries, including the world’s most prominent space technology organization.  Proficient in the Software Development Life Cycle (SDLC) for developing Web  and Desktop applications employing Agile, Scrum and Waterfall methodologies.  Skilled in overcoming technical challenges associated with hierarchical, matrix, and virtual teams, as well as aggressive client demands and service agreements. Awarded with internal and external recognitions for application architecture, database skills, and continuous operations of vital applications for space shuttle flights. <br/>
+      </label>
     </div>
-  </section>
 
-  <section  id="project" class="project">
-    <h2>Projects</h2>
-    <div class="project-grid-container">
-      <div class="project-grid-item">
-        <a href="https://rhmorganjr.github.io/russellmorgan.github.io/index.html">
-          <h3>Horiseon</h3>
-        </a>
-      </div>
+    <div id="work" class="work row-12">
+      <label class="col-sm-2 contact-label">Work</label>
+      <button id="rockwell-sb">Rockwell</button>
+      <button id="eds">EDS</button>
+      <button id="rockwellBoeingUSA">Rockwell/Boeing/USA</button>
+      <button id="trinity">Trinity Millenium</button>
+      <button id="accenture">Accenture</button>
+      <button id="usaa">USAA</button>
     </div>
-  </section>
 
-  <section id="contact" class="contact-me">
-    <h2>Contact Me</h2>
-    <div class="contact-info">
-      <label>Phone: (555)555-1234</label>
-      <label>Email: rhmorgan@gmail.com</label>
+    <div>
+      <modal id="work-modal"></modal>
     </div>
-  </sectiom>
-  </section>
+
+    <div id="projects" class="row-12">
+      <label class="col-sm-2 contact-label">Projects</label>
+      <a class="col-sm-2 project" href="https://rhmorganjr.github.io/russellmorgan.github.io/index.html">Horiseon</a>
+      <a class="col-sm-2 project" href="https://rhmorganjr.github.io/password-generator/index.html">Password Generator</a>
+      <a class="col-sm-2 project" href="https://rhmorganjr.github.io/code-quiz/">Code Quiz</a>
+      <a class="col-sm-2 project" href="https://rhmorganjr.github.io/weather-dashboard/">Weather Dashboard</a>
+    </div>
+
+    <div id="contact" class="row-12">
+      <label class="col-sm-2 contact-label">Contact Me</label>
+      <label class="col-sm-3">Phone: (713) 851-6880</label>
+      <label class="col-sm-3">Email: rhmorganjr@gmail.com</label>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets//js//script.js"></script>
 </body>
+
 </html>
