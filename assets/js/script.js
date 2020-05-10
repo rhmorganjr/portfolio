@@ -1,13 +1,12 @@
 let workModal = document.getElementById('work-modal');
 
-$("#rockwell-sb").on("click", function(event) {
-  event.preventDefault();
+$("#rockwell-sb").on("click", function(e) {
+  e.preventDefault();
 
   workModal.title = "Rockwell International";
   
-  workModal.innerHTML = ( "Seal Beach, CA<br/>" +
-  "March 1983 - Novenber 1985<br/>" +
-  "");
+  workModal.innerHTML = ("Seal Beach, CA<br/>" +
+  "March 1983 - Novenber 1985<br/>");
   workModal.style.display = "block";
 });
 
@@ -16,9 +15,8 @@ $("#eds").on('click', function(e) {
 
   workModal.title = "Electronic Data Systems";
   
-  workModal.innerHTML = ( "Plano, TX<br/>" +
-  "December 1985 - October 1987<br/><br/>" +
-  "");
+  workModal.innerHTML = ("Plano, TX<br/>" +
+  "December 1985 - October 1987<br/><br/>");
   workModal.style.display = "block";
 });
 
